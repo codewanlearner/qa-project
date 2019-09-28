@@ -6,7 +6,7 @@ Bundler.setup(:default)
 Bundler.require
 
 Capybara.default_driver = :selenium_chrome
-Capybara.app_host = "https://http://formy-project.herokuapp.com/"
+Capybara.app_host = "http://formy-project.herokuapp.com/"
 Capybara.default_max_wait_time = 10
 
 RSpec.configure do |config|
